@@ -79,6 +79,7 @@
         android:background="@drawable/btn_red_large"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="User"
+        android:onClick="Pindah"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"

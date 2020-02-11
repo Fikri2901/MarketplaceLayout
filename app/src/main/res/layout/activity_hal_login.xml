@@ -50,6 +50,7 @@
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Register"
         android:textColor="#FFFFFF"
+        android:onClick="Pindah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toEndOf="@+id/button"
@@ -65,6 +66,7 @@
         android:background="@drawable/btn_white_large"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Login"
+        android:onClick="Pindah1"
         android:textColor="#E73434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
