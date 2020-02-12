@@ -23,4 +23,9 @@ public class hal_login extends AppCompatActivity {
         Intent iten = new Intent(hal_login.this, hal_personal.class);
         startActivity(iten);
     }
+
+    public void backLogin(View view) {
+        Intent iten = new Intent(hal_login.this, MainActivity.class);
+        startActivity(iten);
+    }
 }

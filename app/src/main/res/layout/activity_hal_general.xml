@@ -63,43 +63,18 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/grey_line_full" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
+    <EditText
+        android:id="@+id/imageView5"
+        android:layout_width="313dp"
+        android:layout_height="49dp"
         android:layout_marginTop="20dp"
-        android:text="Full Name"
-        android:textSize="17dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Full Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        tools:fontFamily="@font/futura_pt_demibold" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:srcCompat="@drawable/red_line_padded" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/futura_pt_demibold"
-        android:text="M. Fikri"
-        android:textColor="#313131"
-        android:textSize="23dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
         android:id="@+id/imageView6"
@@ -135,9 +110,9 @@
         android:fontFamily="@font/futura_pt_demibold"
         android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
         app:srcCompat="@drawable/grey_line_padded" />
 
     <EditText
@@ -172,9 +147,11 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/btn_red_large"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="Next"
         android:onClick="Pindah"
+        android:text="Next"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
@@ -183,9 +160,10 @@
         android:id="@+id/imageView22"
         android:layout_width="32dp"
         android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        android:onClick="Pindah"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left_black" />
@@ -196,9 +174,32 @@
         android:layout_height="35dp"
         android:layout_marginTop="16dp"
         android:entries="@array/country"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:srcCompat="@drawable/grey_line_padded" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="14dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="@+id/spinner"
+        app:srcCompat="@drawable/caret_down" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

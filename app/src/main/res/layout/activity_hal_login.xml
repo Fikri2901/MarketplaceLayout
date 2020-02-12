@@ -48,9 +48,11 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/btn_red_medium"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="Register"
-        android:textColor="#FFFFFF"
         android:onClick="Pindah"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toEndOf="@+id/button"
@@ -65,9 +67,11 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/btn_white_large"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="Login"
         android:onClick="Pindah1"
+        android:text="Login"
+        android:textAllCaps="false"
         android:textColor="#E73434"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
@@ -79,24 +83,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:background="@drawable/btn_white_large"
+        android:drawableLeft="@drawable/google_logo"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="continue with google"
+        android:paddingLeft="10dp"
+        android:text="Continue with Google"
+        android:textAllCaps="false"
+        android:textSize="20dp"
         android:textColor="#E73434"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"></Button>
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="28dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.027"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:srcCompat="@drawable/google_logo" />
 
     <Button
         android:id="@+id/button4"
@@ -104,23 +101,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:background="@drawable/btn_blue_large"
+        android:drawableLeft="@drawable/fb_logo"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="continue with facebook"
+        android:paddingLeft="10dp"
+        android:text="Continue with Facebook"
+        android:textAllCaps="false"
         android:textColor="#4169E1"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"></Button>
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="27dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:srcCompat="@drawable/fb_logo" />
 
     <TextView
         android:id="@+id/textView5"
@@ -132,5 +122,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:onClick="backLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
