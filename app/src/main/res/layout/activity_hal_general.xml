@@ -103,6 +103,19 @@
         app:srcCompat="@drawable/grey_line_padded" />
 
     <EditText
+        android:id="@+id/imageView13"
+        android:layout_width="314dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Country"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/grey_line_padded" />
+
+    <EditText
         android:id="@+id/imageView9"
         android:layout_width="313dp"
         android:layout_height="40dp"
@@ -112,7 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
         app:srcCompat="@drawable/grey_line_padded" />
 
     <EditText
@@ -168,23 +181,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left_black" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="315dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="16dp"
-        android:entries="@array/country"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner"
         app:srcCompat="@drawable/grey_line_padded" />
@@ -192,14 +195,9 @@
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="14dp"
-        android:layout_height="12dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
-        app:layout_constraintStart_toStartOf="@+id/spinner"
-        app:layout_constraintTop_toTopOf="@+id/spinner"
-        app:srcCompat="@drawable/caret_down" />
+        android:layout_height="11dp"
+        app:srcCompat="@drawable/caret_down"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="324dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
